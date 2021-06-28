@@ -1,3 +1,4 @@
+
 def getinforequests(URL):
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, 'html.parser') #allows Python to interact with information similar to that of which is possible in a web browser
